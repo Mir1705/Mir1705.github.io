@@ -1,0 +1,62 @@
+.html,.css,.js,.react,.redux,.discrete,.analysis,.havtes,.graph{
+    width: max-content;
+    height: 7vh;
+
+}
+@keyframes animate {
+    0%{
+        margin-right: 200px;
+    }
+    25%{
+        margin-right:20px;
+    }
+    50%{
+        margin-left: 200px;
+    }
+    100%{
+margin-right:20px;
+    }
+}
+@keyframes animate2 {
+    0%{
+        margin-right: 150px;
+    }
+    25%{
+        margin-right:20px;
+    }
+    50%{
+        margin-left: 150px;
+    }
+    100%{
+margin-right:20px;
+    }
+}
+.html,.js,.redux,.analysis,.graph{
+    animation: animate2 3s infinite
+
+}
+.css,.react,.discrete,.havtes{
+    animation: animate 3s infinite;
+}
+
+@media  screen and (max-width:1024px) {}
+   
+@media  screen and (max-width:600px) {
+    .html,.js,.redux,.analysis,.graph{
+        animation: 0;
+    
+    }
+    .css,.react,.discrete,.havtes{
+        animation: 0;
+    }
+}
+.me-face{
+    width: 20rem;
+    left: calc(50%-11rem);
+}
+.skilldiv{
+    display:flex;
+}
+.image {
+    background-color: antiquewhite;
+}

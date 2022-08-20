@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poly:ital@1&family=Poppins:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+html{
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(39, 31, 46); 
+    color:wheat;
+    line-height: 1.5;
+}
+.container{
+    width: 75%;
+    margin:0 auto;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 450;
+}
+h1{
+    font-size: 2.3rem;
+}
+section{
+    margin-top: 7rem;
+    height: 100vh;
+}
+section>h5{
+    color:wheat;
+    text-align: center;
+}
+section>h2{
+    text-align: center;
+    color: wheat;
+    margin-bottom: 2.5rem;
+
+}
+a{
+    color:wheat;
+
+}
+a:hover{
+    color:white;
+}
+.button{
+color: white;
+width:max-content;
+display: inline-block;
+border-radius: 0.3rem;
+padding: 0.7rem 1rem;
+border:1px solid white;
+}
+.bt{
+    background: white;
+    color: rgb(39, 31, 46);
+}
+.button:hover{
+    background-color: white;
+    background-color: rgb(39, 31, 46);
+}
+img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        width:86%;
+    }
+    section{
+        margin-top: 10rem;
+    }
+
+}
+@media screen and (max-width:800px){
+    section{
+        margin-bottom: 10rem;
+    }
+    .container{
+        width:89%;
+    }
+    
+    
+}
+@media screen and (max-width:600px){
+    .container{
+        width:86%;
+    }
+    section{
+        margin-top: 10rem;
+    }
+
+    
+}

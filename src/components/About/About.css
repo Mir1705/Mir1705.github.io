@@ -1,0 +1,28 @@
+.container_about{
+    display:grid;
+    grid-template-columns: 35% 50%;
+    gap:15%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.habout{
+   
+}
+.aboutm{
+    width: 100%;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+}
+.imag{
+    border-radius:50%;
+    overflow:hidden;
+    width:20rem;
+}
+.p{
+    color:wheat;
+}
+@media screen and (max-width:1024px){
+    
+}

@@ -1,0 +1,17 @@
+.inputs{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+
+}
+
+.name,.emailin,.send,.buttonMes{
+    background-color: wheat;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+.buttonMes:hover{
+    background-color: rgb(96, 47, 73);
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
